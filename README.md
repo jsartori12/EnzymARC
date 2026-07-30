@@ -69,4 +69,3 @@ If you use EnzymARC in your work, please cite:
 
 ## License
 
-*(Add your license here, e.g. MIT / CC-BY-4.0.)*
