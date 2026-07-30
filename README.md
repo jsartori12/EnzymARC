@@ -48,8 +48,6 @@ Two decoy generation strategies, producing **four decoy categories**, are provid
 SEQUENCE...
 ```
 
-*(Adjust this line if your actual header format differs — happy to update once you confirm the exact format used in the released files.)*
-
 ## Repository Contents
 
 ```
