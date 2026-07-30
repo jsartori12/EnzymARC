@@ -35,7 +35,7 @@ Two decoy generation strategies, producing **four decoy categories**, are provid
 | `decoys_10A.fasta` | 10 Å shell | Same as above, radius extended to 10 Å | 73,077 | 89.8% | 35 |
 | `decoys_15A.fasta` | 15 Å shell | Same as above, radius extended to 15 Å | 73,077 | 72.9% | 94 |
 
-![Structural representation of the progressive active-site mutagenesis strategy, showing concentric shells at 5, 10, and 15 Å from the catalytic site center of mass](figures/mutagenesis_radius.png)
+![Structural representation of the progressive active-site mutagenesis strategy, showing concentric shells at 5, 10, and 15 Å from the catalytic site center of mass](figures/graphab.png)
 
 *Structural representation of the progressive active-site mutagenesis strategy. Concentric shells were expanded to include residues within 5 Å (yellow), 10 Å (orange), and 15 Å (red) of the catalytic site center of mass. Residues within each shell were substituted to generate progressively more disruptive non-functional enzyme decoys, while preserving the overall protein scaffold and a realistic degree of sequence similarity to the parent enzyme.*
 
