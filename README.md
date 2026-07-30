@@ -18,6 +18,10 @@ Across all three, we found high false positive rates at low levels of perturbati
 
 This repository provides the decoy sequence datasets used in the benchmark, so they can be reused to evaluate other EC predictors or to train more structurally aware models.
 
+![False positive rates across all EC predictor methods evaluated during benchmark, separated by decoy category](figures/geral_benchmark.png)
+
+*False positive rate (FPR) as a function of decoy category (mutation radius) for the three benchmarked EC predictors. DIAMOND (blue) and CLEAN (gray) remain highly vulnerable across most perturbation levels, only degrading meaningfully at the 15 Å decoys. DeepEC (orange), which was explicitly trained on non-enzyme discrimination, shows much stronger sensitivity to active-site disruption, dropping to an FPR of 4.4% at 15 Å.*
+
 ## Dataset
 
 The dataset was derived from Swiss-Prot (UniProtKB, manually reviewed entries, retrieved March 10, 2026), filtered to sequences with a complete EC number, a Rhea ID, and a length between 100–1,000 amino acids (218,504 sequences). Of these, 79,505 entries had experimentally annotated active site residues and were used as the basis for decoy generation.
