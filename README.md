@@ -62,6 +62,11 @@ EnzymARC/
 │   ├── decoys_10A.fasta
 │   └── decoys_15A.fasta
 ├── README.md
+├── analysis_scripts/
+│   ├── benchmark_complete_plot.py
+│   ├── deepec_eval.py
+│   ├── eval_clean.py
+│   └── eval_diamond.py
 └── ...
 ```
 
